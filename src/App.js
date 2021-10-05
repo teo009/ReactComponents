@@ -18,7 +18,7 @@ function App() {
           color="blue"
           fontColor="white"
           name="TO"
-          paramsImg=""
+          paramsImg="noEmpty"
         />
       </header>
     </div>
