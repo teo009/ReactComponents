@@ -10,7 +10,7 @@ function App() {
           color="lightBlue"
           fontColor="#24435c"
           text="Default Alert"
-          alertStatus=""
+          alertStatus="Default"
         />
         <Avatar 
           color="blue"
