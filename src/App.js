@@ -15,7 +15,8 @@ function App() {
         />
         
         <Avatar 
-          color="lightBlue"
+          color="blue"
+          fontColor="white"
           name="TO"
           paramsImg=""
         />

@@ -1,7 +1,7 @@
 import React from 'react'
 import avatar from '../Resourses/kk.jpg'
 
-function Avatar({color, name, paramsImg}) {
+function Avatar({color, name, paramsImg, fontColor}) {
 
     const lettersName1=name.charAt(0)
     const lettersName2=name.charAt(1)
@@ -15,17 +15,18 @@ function Avatar({color, name, paramsImg}) {
                 style={{
                     width: '95px',
                     height: '95px',
+                    color: `${fontColor}`,
                     borderRadius: '100px',
                     marginLeft: '45%',
                     marginBlock: '5%',
                     textAlign: 'center',
-                    fontSize: '380%', 
+                    fontSize: '370%', 
                     backgroundColor: `${color}`,
                     fontFamily: 'Arial, Helvetica, sans-serif',
                     
                 }}
             >
-                <img 
+                <img
                     src={params}
                     alt={params}
                     style={{
