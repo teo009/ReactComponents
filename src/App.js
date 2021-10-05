@@ -9,11 +9,9 @@ function App() {
         <Alert 
           color="lightBlue"
           fontColor="#24435c"
+          text="Default Alert"
+          alertStatus=""
         />
-        <Alert 
-          text="Success Alert"
-        />
-        
         <Avatar 
           color="blue"
           fontColor="white"
